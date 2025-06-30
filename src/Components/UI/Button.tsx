@@ -1,7 +1,7 @@
 import type { ButtonHTMLAttributes, ReactNode } from "react"
 
 interface IProps extends ButtonHTMLAttributes<HTMLButtonElement>{
-    className:string,
+    className?:string,
     children:ReactNode,
     width?:"w-full" | "w-fit"
 }
