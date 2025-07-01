@@ -1,3 +1,4 @@
+// import { ProductNameTypes } from "../types";
 
 export interface IProduct {
   id?: string;
@@ -10,4 +11,17 @@ export interface IProduct {
     name: string;
     imageURL: string;
   };
+}
+
+export interface IFormInput {
+  id: string;
+  name: string;
+  label: string;
+  type: string;
+}
+
+export interface ICategory {
+  id: string;
+  name: string;
+  imageURL: string;
 }
